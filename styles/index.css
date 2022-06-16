@@ -1,0 +1,906 @@
+*{
+    margin: auto;
+}
+body{
+    width:  1350px;
+    background-color: whitesmoke;
+    height: 1250px;
+}
+nav{
+    width: 1350px;
+    height: 80px;
+    display: flex;
+    background-image: linear-gradient(160deg, blue 30%, rgb(12, 12, 196) 55%);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 20px;
+}
+.logo li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logopicaa{
+    width: 300px;
+    height: 80px;
+}
+.navlistas li a{
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+.navlistas li a:hover{
+    color: white;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+
+}
+.navlist{
+    display: none;
+}
+
+/*START THE FIRSTDIV*/
+.firstdiv{
+    width: 1350px;
+    height: 300px;
+   
+  
+    background-repeat: no-repeat;
+    
+   
+}
+
+.backpic{
+    width: 1350px;
+    height: 300px;
+}
+.firstdiv ul{
+    display: block;
+    list-style: none;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    top: -230px;
+}
+.firstdiv ul li h1{
+    color: white;
+    font-family: cursive;
+}
+.firstdiv ul li p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(230, 224, 224);
+    font-size: 22px;
+}
+
+/*START THE SECOND DIV*/
+.seconddiv{
+    width: 1100px;
+    height: 900px;
+    position: relative;
+    top: -110px;
+    background-color: #bab7e7;
+}
+.seconddiv h1{
+    color: wheat;
+    font-size: 25px;
+    padding: 12px;
+    border-bottom: 1px solid grey;
+}
+.seconddiv ul{
+    list-style-type:none ;
+    display: flex;
+}
+.first-sub-div{
+    width: 350px;
+    height: 300px;
+    display: block;
+}
+.first-sub-div ul{
+    
+    background-color: #2d2d2d;
+    border-radius: 15px;
+    display: block;
+
+}
+.first-sub-div ul li{
+    font-size: 20px;
+    margin: 5px;
+    padding: 2px;
+    color: white;
+}
+.includelist{
+    list-style: armenian;
+}
+.excludelist{
+    list-style-type: none;
+}
+
+
+.second-sub-div-a{
+    width: 350px;
+    height: fit-content;
+    background-color: #2d2d2d;
+    border-radius: 15px;
+}
+.second-sub-div-a ul{
+    list-style: armenian;
+    display: block;
+}
+.second-sub-div-a ul li{
+    font-size: 18px;
+    margin: 5px;
+    padding: 2px;
+    color: white;
+}
+
+.third-sub-div-a ul li{
+    font-size: 18px;
+    margin: 5px;
+    padding: 2px;
+    color: white;
+}
+
+
+
+
+/*START THE third SUB DIV*/
+.third-sub-div-a{
+    width: 350px;
+    height: fit-content;
+    background-color: #2d2d2d;
+    border-radius: 15px;
+}
+.third-sub-div-a ul{
+    list-style:decimal;
+    display: block;
+}
+
+buttonx {
+    width: 350px;
+    height: 31px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#800080);
+    background-color: #0f357c;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #800080;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+
+    user-select: none;
+    right: 500px;
+    padding-top: 12px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.nav-toggler{
+    height: 34px;
+    width: 44px;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+  
+    border: none;
+    display: none;
+}
+.nav-toggler:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.nav-toggler span{
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.nav-toggler span::before,
+.nav-toggler span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.nav-toggler span::before{
+    transform: translateY(-6px);
+}
+.nav-toggler span::after{
+    transform: translateY(6px);   
+}
+
+.footer{
+    width: 1350px;
+    height: 90px;
+    position: relative;
+    top: -100px;
+    text-align: center;
+    background-image: linear-gradient(160deg, blue 20%, #2d2d2d 30%, blue 80%);
+}
+.footer h1{
+    color: red;
+    font-size: 25px;
+    line-height: 70px;
+}
+.testimonies{
+    position: fixed;
+   height: auto;
+   width: 1350px;
+   top: 90px;
+   background-color: #0f357c;
+   overflow-x: auto;
+  
+}
+.showtestimonies{
+    visibility: hidden;
+}
+.testimonies-pics{
+    max-width: 300px;
+    padding-left: 5px;
+    padding-top: 30px;
+    max-height: 400px;
+}
+.testimonies ul{
+    display: flex;
+    list-style-type: none;
+    user-select: none;
+}
+.testimonies h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 250px;
+    right: 250px;
+}
+
+@media screen and (max-width: 1150px) {
+
+*{
+    margin: auto;
+}
+body{
+    width: 1150px;
+
+}
+nav{
+    width: 1150px;
+}
+.navlist li a{
+    padding: px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+.firstdiv{
+    width: 1150px;
+}
+.backpic{
+    width: 1150px;
+}
+.footer{
+    width: 1150px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    *{
+        margin: auto;
+    }
+    body{
+        width: 1024px;
+    
+    }
+    nav{
+        width: 1024px;
+    }
+    .navlist li a{
+        padding: 5px;
+        color: white;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        letter-spacing: 0.08em;
+    }
+    .logopicaa{
+        width: 200px;
+        height: 80px;
+    }
+    .firstdiv{
+        width: 1024px;
+    }
+    .backpic{
+        width: 1024px;
+    }
+    .footer{
+        width: 1024px;
+    }
+    .seconddiv{
+        width: 950px;
+        height: 900px;
+        position: relative;
+        top: -110px;
+        background-color: #bab7e7;
+    }
+
+    /*FIRST 2 DIV ITEMS*/
+    .first-sub-div{
+        width: 290px;
+    }
+    .first-sub-div ul li{
+        font-size: 17px;
+    }
+
+    /*THIRD DIV ITEMS*/
+    .third-sub-div-a{
+        width: 290px;
+    }
+    .third-sub-div-a ul li{
+        font-size: 17px;
+    }
+
+
+    /*SECOND DIV ITEMS*/
+    .second-sub-div-a{
+        width: 290px;
+    }
+    .second-sub-div-a ul li{
+        font-size: 17px;
+    }
+    buttonx{
+        width: 290PX;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    *{
+        margin: auto;
+    }
+    body{
+        width: 720px;
+    }
+    nav{
+        width:  720px;
+        height: ;
+    }
+    .logopicaa{
+        width: 300px;
+    }
+    .nav-toggler{
+        display: block;
+        width: 70px;
+        height: 40px;
+    }
+    .nav-toggler span{
+        width: 40px;
+        height: 3px;
+    }
+    .nav-toggler span::before{
+        transform: translateY(-10px);
+    }
+    .nav-toggler span::after{
+        transform: translateY(10px);   
+    }
+    
+    .navlist{
+        display: block;
+        width: 350px;
+        background-color: #800080;
+        position: fixed;
+        right: 0px;
+        top: 80px;
+       list-style: none;
+        height: 350px;
+     
+        text-align: left;
+    
+    }
+    .hidenav{
+        display: none;
+    }
+
+
+    .navlist li a{
+        font-size: 25px;
+        padding-top: 25px;
+        height: 20px;
+        line-height: 65px;
+        color: white;
+        text-align: right;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .firstdiv{
+        width: 720px;
+
+    }
+    .backpic{
+        width: 720px;
+    }
+
+
+    .seconddiv{
+        width: 700px;
+        height: 900px;
+        position: relative;
+        top: -110px;
+        background-color: #bab7e7;
+    }
+
+    /*FIRST 2 DIV ITEMS*/
+    .first-sub-div{
+        width: 215px;
+    }
+    .first-sub-div ul li{
+        font-size: 14px;
+    }
+
+    /*THIRD DIV ITEMS*/
+    .third-sub-div-a{
+        width: 215px;
+    }
+    .third-sub-div-a ul li{
+        font-size: 14px;
+    }
+
+
+    /*SECOND DIV ITEMS*/
+    .second-sub-div-a{
+        width: 215px;
+    }
+    .second-sub-div-a ul li{
+        font-size: 14px;
+    }
+    buttonx{
+        width: 220PX;
+    }
+    .footer{
+        width: 720px;
+    }
+    .footer h1{
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+    *{
+        margin: auto;
+    }
+    body{
+        width:100% 480px;
+    }
+    nav{
+        width:100% 480px;
+        height: ;
+    }
+    .logopicaa{
+        width: 250px;
+    }
+    .nav-toggler{
+        display: block;
+        height: 34px;
+    width: 44px;
+    }
+    .nav-toggler span{
+        height: 2px;
+    width: 30px;
+    }
+    .nav-toggler span::before{
+        transform: translateY(-8px);
+    }
+    .nav-toggler span::after{
+        transform: translateY(8px);   
+    }
+    .hidenav{
+        display: none;
+    }
+    .navlist{
+        display: block;
+        width: 350px;
+        background-color: #800080;
+        position: fixed;
+        right: 0px;
+        top: 80px;
+       list-style: none;
+        height: 350px;
+     
+        text-align: left;
+    
+    }
+    .hidenav{
+        display: none;
+    }
+
+
+    .navlist li a{
+        font-size: 25px;
+        padding-top: 25px;
+        height: 20px;
+        line-height: 65px;
+        color: white;
+        text-align: right;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .firstdiv{
+        width: 480px;
+
+    }
+    .backpic{
+        width: 480px;
+    }
+    .firstdiv ul li p,
+    .firstdiv ul li h1{
+        color: white;
+        font-size: 23px;
+        position: relative;
+        left: -40px;
+        font-family: cursive;
+    }
+    .firstdiv ul li p{
+        font-size: 20px;
+    }
+
+
+    .seconddiv{
+        width: fit-content;
+        height: 2150px;
+        position: relative;
+        top: -110px;
+        left: -10px;
+        margin: auto;
+        text-align: left;
+        background-color: #bab7e7;
+    }
+    .seconddiv ul{
+        display: block;
+        line-height: 20px;
+    }
+
+    /*FIRST 2 DIV ITEMS*/
+    .first-sub-div{
+        width: 380px;
+    }
+    .first-sub-div ul li{
+        font-size: 14px;
+    }
+
+    /*THIRD DIV ITEMS*/
+    .third-sub-div-a{
+        width: 380px;
+    }
+    .third-sub-div-a ul li{
+        font-size: 14px;
+    }
+
+
+    /*SECOND DIV ITEMS*/
+    .second-sub-div-a{
+        width: 380px;
+    }
+    .second-sub-div-a ul li{
+        font-size: 14px;
+    }
+    buttonx{
+        width: 400PX;
+    }
+    .footer{
+        width: 480px;
+    }
+    .footer h1{
+        font-size: 20px;
+        line-height: 30px;
+        width: 480px;
+    }
+    .b{
+        position: relative;
+        top: -20px;
+    }
+    .c{
+        position: relative;
+        top: -135px;
+    }
+    .d{
+        position: relative;
+        top: -128px;
+    }
+    .e{
+        position: relative;
+        top: -8px;
+    }
+    .f{
+        position: relative;
+        top: -18px;
+    }
+    .g{
+        position: relative;
+        top: -135px;
+    }
+    .h{
+        position: relative;
+        top: -145px;
+    }
+    .i{
+        position: relative;
+        top: -158px;
+    }
+
+    .testimonies{
+        position: fixed;
+       height: 500px;
+       width: 480px;
+       top: 90px;
+       background-color: #0f357c;
+       overflow-x: auto;
+      
+    }
+    .testimonies ul{
+        display: block;
+    }
+    .testimonies h1{
+        font-size: 18px;
+        color: white;
+   
+        position: fixed;
+        right: 0px;
+        width: 100px;
+        text-align: right ;
+        background-color: #800080;
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+    *{
+        margin: auto;
+    }
+    body{
+        width: 360px;
+    }
+    nav{
+        width:  360px;
+     
+    }
+    .logopicaa{
+        width: 180px;
+    }
+    .nav-toggler{
+        display: block;
+        height: 34px;
+    width: 44px;
+    }
+    .nav-toggler span{
+        height: 2px;
+    width: 30px;
+    }
+    .nav-toggler span::before{
+        transform: translateY(-8px);
+    }
+    .nav-toggler span::after{
+        transform: translateY(8px);   
+    }
+    .hidenav{
+        display: none;
+    }
+    .navlist{
+        display: block;
+        width: 350px;
+        background-color: #800080;
+        position: fixed;
+        right: 0px;
+        top: 80px;
+       list-style: none;
+        height: 350px;
+     
+        text-align: left;
+    
+    }
+    .hidenav{
+        display: none;
+    }
+
+
+    .navlist li a{
+        font-size: 25px;
+        padding-top: 25px;
+        height: 20px;
+        line-height: 65px;
+        color: white;
+        text-align: right;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .firstdiv{
+        width: 360px;
+
+    }
+    .backpic{
+        width: 360px;
+    }
+    .firstdiv ul li p,
+    .firstdiv ul li h1{
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: -115px;
+        letter-spacing: 0.0002px;
+        font-family: cursive;
+    }
+    .firstdiv ul li p{
+        font-size: 15px;
+    }
+
+
+    .seconddiv{
+        width: fit-content;
+        height: 2150px;
+        position: relative;
+        top: -110px;
+        left: -10px;
+        margin: auto;
+        text-align: left;
+        background-color: #bab7e7;
+    }
+    .seconddiv ul{
+        display: block;
+        line-height: 20px;
+    }
+
+    /*FIRST 2 DIV ITEMS*/
+    .first-sub-div{
+        width: 320px;
+    }
+    .first-sub-div ul li{
+        font-size: 14px;
+    }
+
+    /*THIRD DIV ITEMS*/
+    .third-sub-div-a{
+        width: 320px;
+    }
+    .third-sub-div-a ul li{
+        font-size: 14px;
+    }
+
+
+    /*SECOND DIV ITEMS*/
+    .second-sub-div-a{
+        width: 320px;
+    }
+    .second-sub-div-a ul li{
+        font-size: 14px;
+    }
+    buttonx{
+        position: relative;
+        top: -100px;
+        width: 320PX;
+        right: 0px;
+    }
+    .footer{
+        width: 360px;
+    }
+    .footer h1{
+        font-size: 15px;
+        line-height: 30px;
+        width: 280px;
+    }
+    .b{
+        position: relative;
+        top: -20px;
+    }
+    .c{
+        position: relative;
+        top: -115px;
+    }
+    .d{
+        position: relative;
+        top: -108px;
+    }
+    .e{
+        position: relative;
+        top: -8px;
+    }
+    .f{
+        position: relative;
+        top: -18px;
+    }
+    .g{
+        position: relative;
+        top: -115px;
+    }
+    .h{
+        position: relative;
+        top: -125px;
+    }
+    .i{
+        position: relative;
+        top: -138px;
+    }
+
+    .testimonies{
+        position: fixed;
+       height: 500px;
+       width: 360px;
+       top: 90px;
+       background-color: #0f357c;
+       overflow-x: auto;
+      
+    }
+    .testimonies ul{
+        display: block;
+    }
+    .testimonies h1{
+        font-size: 18px;
+        color: white;
+   
+        position: fixed;
+        right: 0px;
+        width: 100px;
+        text-align: right ;
+        background-color: #800080;
+    }
+}
